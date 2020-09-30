@@ -5,16 +5,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Sports to do</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <a href="https://nextjs.org">Sports to do </a>
         </h1>
+        <nav>
+          <a href='/timeline'>timeline</a>
+        </nav>
 
-       
+
       </main>
 
       <footer className={styles.footer}>
